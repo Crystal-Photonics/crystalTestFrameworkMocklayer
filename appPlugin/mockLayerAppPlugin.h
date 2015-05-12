@@ -49,7 +49,7 @@
 class mockLayerAppPlugin : public QObject, comModulInterface
 {
     Q_OBJECT
-    Q_PLUGIN_METADATA(IID "de.crystal-photonics.crystalTestFramework.comModulInterface" FILE "mockLayerAppPluging.json")
+    Q_PLUGIN_METADATA(IID "de.crystal-photonics.crystalTestFramework.comModulInterface" FILE "mockLayerAppPlugin.json")
     Q_INTERFACES(comModulInterface)
 
 public:
