@@ -43,7 +43,7 @@
 #include "mockLayerAppPlugin.h"
 
 //! [0]
-QString mockLayerAppPlugin::echo(const QString &message)
+QString mockLayerAppPlugin::echo_(const QString &message)
 {
     return message;
 }

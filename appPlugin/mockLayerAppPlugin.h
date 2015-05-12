@@ -53,7 +53,7 @@ class mockLayerAppPlugin : public QObject, comModulInterface
     Q_INTERFACES(comModulInterface)
 
 public:
-    QString echo(const QString &message) Q_DECL_OVERRIDE;
+    QString echo_(const QString &message) Q_DECL_OVERRIDE;
 };
 //! [0]
 
